@@ -1,0 +1,51 @@
+
+section{
+    margin: 10px;
+    padding: 10px;
+}
+form{
+    width: 40%;
+    margin: 40px auto;
+    background-color: rgba(249, 245, 114, 0.863);
+    box-shadow: 1px 2px 0 2px rgb(0, 0, 0,0.2);
+    border-radius: 5px;
+}
+label{
+    padding-bottom: 15px;
+    display: block;
+    
+}
+input{
+    display: inline-block;
+    width: 80%;
+    padding: 6px
+    
+}
+input:focus{
+    background-color: rgb(188, 224, 255);
+}
+button{
+    background-color: rgb(174, 179, 43);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: rgb(123, 133, 29);
+}
+span{
+    color: rgb(39, 25, 103);
+}
+.count{
+    float: right;
+    position: relative;
+    top: -43px;
+    right: 45px;
+}
+/* will be called when remaining chars are equal or less to 10 */
+input.warning{
+    background-color: rgb(240, 51, 51);
+}
+#charCount.warning{
+    color:rgb(142, 39, 39) ;
+}
